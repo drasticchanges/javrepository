@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,21 @@
             font-family: 'Helvetica', sans-serif;
             text-align: left;
             margin: 20px;
+            display: flex;
+        }
+        .profile {
+            flex: 1;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centering items horizontally */
+            border: 2px solid #333; /* Outer border for the profile cell */
+            background-color: #d5e3f0; /* Background color for the profile cell */
+            padding: 20px; /* Padding for better spacing */
+            text-align: center; /* Center alignment for contents */
+        }
+        .filmography {
+            flex: 2;
         }
         h1 {
             color: #333;
@@ -17,15 +33,33 @@
             color: #555;
         }
         p {
-            line-height: 1.2; /* Reduced line-height for compactness */
+            line-height: 0.3; /* Adjusted line-height for readability */
         }
         ul {
             line-height: 1.2; /* Ensuring list items also have reduced spacing */
         }
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px; /* Adding space below the image */
+        }
+        .back-link {
+            margin-top: 20px; /* Space above the back link */
+            display: block;
+            font-weight: bold;
+            color: #007BFF;
+            vertical-align: text-bottom;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
-    <h1>Name: AIKA (あいか)</h1>
+
+    <div class="profile">
+        <img src="AIKA.jpg" alt="AIKA">
+        <h1>Name: AIKA (あいか)</h1>
+        <div>
     <p><strong>Date of Birth:</strong> August 25, 1990</p>
     <p><strong>Place of Birth:</strong> Hyogo, Japan</p>
     <p><strong>Debut Year:</strong> 2011</p>
@@ -33,9 +67,11 @@
     <p><strong>Body Measurements:</strong> 87-60-84 cm (D cup)</p>
     <p><strong>Blood Type:</strong> Not specified</p>
     <p><strong>Genres:</strong> Amateur, Romance, Fetish</p>
-
-    <h2>Codes</h2>
-    <ul>
+        </div>
+    </div>
+    <div class="filmography">
+        <h2>Codes</h2>
+        <ul>
         <li><Strong>PBD-392</Strong> (Beautiful older sister’s relentless blowjob BEST over 100 ejaculations leaving no juice behind)</li>
         <li><Strong>MMB-341</Strong> (New Year’s debauchery: drinking, letting loose, and wild SEX!! Breast groping, squirting, and creampie galore!)</li>
         <li><Strong>CJOD-455</Strong> (When I went back to my girlfriend’s hometown, I was relentlessly made to ejaculate by two famous local slutty sisters. Moka Haruhi AIKA)</li>
@@ -55,10 +91,8 @@
         <li><Strong>MIAD-881</Strong> (Pretending Mistake and Inserting, Surprisingly I Can Have Full Service at Prohibited Box Hell Shop)</li>
         <li><Strong>JUFD-616</Strong> (Quietly Seduced By My Brother’s Girlfriend in a Place Where I Can’t Make a Sound – Slutty FUCK AIKA)</li>
         <li><Strong>RIX-019</Strong> (Oil Massage Parlor Targeting Only Rebellious Black Gal Endangered Species in Shibuya Dogenzaka 4/Again!)</li>
-     
-
-    </ul>
-
-    <a href="index.html">Back to Index</a>
+</div>
+       <a class="back-link" href="index.html">Back to Index</a>
+        
 </body>
 </html>

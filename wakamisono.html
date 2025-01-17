@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,21 @@
             font-family: 'Helvetica', sans-serif;
             text-align: left;
             margin: 20px;
+            display: flex;
+        }
+        .profile {
+            flex: 1;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centering items horizontally */
+            border: 2px solid #333; /* Outer border for the profile cell */
+            background-color: #d5e3f0; /* Background color for the profile cell */
+            padding: 20px; /* Padding for better spacing */
+            text-align: center; /* Center alignment for contents */
+        }
+        .filmography {
+            flex: 2;
         }
         h1 {
             color: #333;
@@ -17,26 +33,46 @@
             color: #555;
         }
         p {
-            line-height: 1.2; /* Reduced line-height for compactness */
+            line-height: 0.3; /* Adjusted line-height for readability */
         }
         ul {
             line-height: 1.2; /* Ensuring list items also have reduced spacing */
         }
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px; /* Adding space below the image */
+        }
+        .back-link {
+            margin-top: 20px; /* Space above the back link */
+            display: block;
+            font-weight: bold;
+            color: #007BFF;
+            vertical-align: text-bottom;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
-    <h1>Name: Waka Misono (美園 和花)</h1>
-    <p><strong>Date of Birth:</strong> March 3, 1999</p>
-    <p><strong>Place of Birth:</strong> Kagawa, Japan</p>
-    <p><strong>Debut Year:</strong> 2018</p>
-    <p><strong>Height:</strong> 155 cm (approximately 5'1")</p>
-    <p><strong>Body Measurements:</strong> 100-60-91 cm (G cup)</p>
-    <p><strong>Blood Type:</strong> A</p>
-    <p><strong>Genres:</strong> Amateur, Romance, Fetish</p>
 
-    <h2>Codes</h2>
-    <ul>
-        <li><Strong>UZU-020</Strong> (Time stops: The world of frozen time vs. Waka Misono.)</li>
+    <div class="profile">
+        <img src="wakamisono.jpg" alt="Waka Misono">
+        <h1>Name: Waka Misono (美園 和花)</h1>
+        <div>
+            <p><strong>Date of Birth:</strong> March 3, 1999</p>
+   	    <p><strong>Place of Birth:</strong> Kagawa, Japan</p>
+            <p><strong>Debut Year:</strong> 2018</p>
+    	    <p><strong>Height:</strong> 155 cm (approximately 5'1")</p>
+            <p><strong>Body Measurements:</strong> 100-60-91 cm (G cup)</p>
+            <p><strong>Blood Type:</strong> A</p>
+            <p><strong>Genres:</strong> Amateur, Romance, Fetish</p>
+        </div>
+    </div>
+    <div class="filmography">
+        <h2>Codes</h2>
+        <ul>
+            <li><Strong>UZU-020</Strong> (Time stops: The world of frozen time vs. Waka Misono.)</li>
         <li><Strong>DASS-534</Strong> (Squirt Game. My girlfriend is forced to climax by men she hates for my sake. Waka Misono Mizuki Yayoi Mizuki Igarashi Machi Ikuno)</li>
         <li><Strong>JUFE-569</Strong> (Yen depreciation NTR. The story of my wife taken by black tourists. Waka Misono)</li>
         <li><Strong>LULU-345</Strong> (While her husband was on a business trip, I couldn’t resist the sight of my big-assed ex-party-girl aunt in tight workout clothes, leading to relentless creampies and orgasmic spasms. Waka Misono)</li>
@@ -54,8 +90,10 @@
         <li><Strong>DASS-461</Strong> (A busty wife falls for her trainer’s womb-piercing thrusts and goes to be unfaithful every day. Misono Waka)</li>
         <li><Strong>NACR-577</Strong> (The New Wife is a Sexual Monster, Misono Waka)</li>
         <li><Strong>EMOT-014</Strong> (Newlywed Life with Misono Waka Enjoyed from a Completely Subjective Perspective)</li>
-    </ul>
 
-    <a href="index.html">Back to Index</a>
+        </ul>
+    </div>
+       <a class="back-link" href="index.html">Back to Index</a>
+        
 </body>
 </html>
